@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="light_mode">
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="first">
+                    <div>
+                        <img class="interface" src="images/layers.png" alt="">
+                    </div>
+                    <div>
+                        <h2>JEGATHEES</h2>
+                    </div>
+                </div>
+                <div class="nav-container">
+                    <a href="#">Home</a>
+                    <a href="#about-me">About me</a>
+                    <a href="#row_3">Internships</a>
+                    <a href="#allign">Projects</a>
+                    <a href="#mySubmit">Contact</a>
+                </div>
+                <div class="moon">
+                    <img class="moon_1" src="images/moon.png" onclick="toggleBtn()" alt=""width="30px">
+                </div>
+                <div class="toggle_btn">
+                    <img onclick="openMenu()" class="open" src="images/menu (2).png" alt="" width="22px">
+                </div>
+            </div>
+        </div>
+        <div id="dropdown_menu" onclick="closeMenu()">
+            <img class="close" src="images/cross.png" alt="" width="30px" >
+            <br><br>
+            <li><a href="#sec_2">About me</a></li>
+            <li><a href="#row_3">Internships</a></li>
+            <li><a href="#allign">Projects</a></li>
+            <li><a href="#mySubmit">Contact</a></li>
+        </div>
+    </header>
+    <section class="sec_1">
+        <div class="container">
+            <div class="row_1">
+                <div class="item">
+                    <b id="b1">Mern <b class="b2">Stack </b> <br><b id="b3"></b>
+                    </b>
+                </div>
+                <div id="change-photo" class="photo">
+                    <img class="myImage" src="images/jega-removebg-preview.png" alt="">
+                </div>
+                <div id="third">
+                    <h2 id="wow">Hi,I am Jegathees.... </h2>
+                    <p>I am currently completing a full stack development course at Skill Safari Institute. I have gained proficiency in HTML, CSS, JavaScript, and React, along with knowledge of various backend frameworks. While I have a basic understanding of PHP, I am actively seeking job opportunities in web development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sec_2">
+        <div class="container">
+            <div id="row_2">
+                <div class="side_image">
+                    <img id="stack" src="images/ligh-program.svg" alt="">
+                    <img id="stack_1" src="images/Programming-amico.svg" alt="">
+                </div>
+                <div class="about">
+                    <div>
+                        <h3 id="about-me">ABOUT ME</h3>
+                    </div>
+                    <div>
+                        <h2>Write code,<br>Break barriers.....</h2>
+                    </div>
+                    <div>
+                        <p> "I design and build digital products, including clone websites. Additionally, I am creating a new website for blood donors, aiming to facilitate the identification of potential donors."</p>
+                    </div>
+                    <div class="code-container">
+                        <p>HTML,CSS</p>
+                        <div id="wave" class="w1">
+                            <div id="run" class="w2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-container">
+                        <p>JAVASCRIPT</p>
+                        <div id="wave" class="w1">
+                            <div id="run" class="w3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-container">
+                        <p>REACT</p>
+                        <div id="wave" class="w1">
+                            <div id="run" class="w5">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-container">
+                        <p>PHP</p>
+                        <div id="wave" class="w1">
+                            <div id="run" class="w4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec_3">
+        <div class="container">
+            <div id="row_3">
+                <div class="intern">
+                    <h1>INTERNSHIPS</h1>
+                    <p>"I have completed my first internship at Skill Safari and also finished an online web development course at Programming Hero. Currently, I am working as an intern at CodeBoosters."</p>
+                </div>
+                <div class="cards">
+                    <div id="content">
+                        <img src="images/representation-user-experience-interface-design.jpg" alt="" width="350px">
+                        <h3>Relearn School 
+                        Web Development <br>Intern</h3>
+                        <p>I successfully completed a comprehensive frontend development internship for Relearn School, facilitated by the esteemed Skill Safari</p>
+                        <a href="https://www.relearnschool.in/" class="showMoreBtn">Know more</a>
+                    </div>
+                    <div id="content">
+                        <img src="images/man-working-night.jpg" alt="" width="350px">
+                        <h3>Codeboosters 
+                        Web Development <br>Internship</h3>
+                        <p class="options hidden" id="options3"> CodeBoosters Tech -  MSME and AICTE Govt-Approved Internship Partner For Skill-Building And Certification."</p>
+                        <a href="https://www.codeboosters.in/" class="showMoreBtn">Know more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sec_4">
+        <div class="container">
+            <div class="row_4">
+                <div id="allign">
+                    <img id="mission" src="images/Hand coding-amico.svg" alt="" width="300px">
+                    <img id="mission_1" src="images/Hand coding-amico (1).svg" alt="" width="300px">
+                    <h1>PROJECTS</h1>
+                    <p>I've been busy creating various clone websites like Flipkart, Zelta Trading Platform, and also working on original projects like a salon spa website. That's a diverse range of projects....</p>
+                </div>
+                <div class="pro">
+                    <div id="pro_1">
+                            <img src="images/parachute.png" alt="" width="70px">
+                            <b>DoLife</b>
+                            <p>I developed a Dolife webpage dedicated to addressing emergency blood needs</p>
+                            <a href=" https://jegathees07.github.io/project-blood-bank/" class="btn-1">See more</a>
+                    </div>
+                    <div id="pro_1">
+                        <img src="images/cloud.png" alt="" width="70px">
+                        <b>Weather App</b>
+                        <p>I developed a Weather app project to fetching API using javascript</p>
+                        <a href=" https://jegathees07.github.io/weather-app-project/" class="btn-2">See more</a>
+                </div>
+                <div id="pro_1">
+                    <img src="images/headphones.png" alt="" width="70px">
+                    <b>Mode UI</b>
+                    <p>I developed a modern UI webpage that is rich in creativity and innovation</p>
+                    <a href="https://jegathees07.github.io/flex-final/" class="btn-3">See more</a>
+                </div>
+                <div id="pro_1">
+                    <img src="images/paper-plane.png" alt="" width="70px">
+                    <b>StartUp</b>
+                    <p>I created a startup landing webpage using frontend technologies and innovative designs</p>
+                    <a href="https://jegathees07.github.io/final-responsive-startup/" class="btn-4">See more</a>
+            </div>
+            <div id="pro_1">
+                <img src="images/shopping.png" alt="" width="70px">
+                <b>Zelta </b>
+                <p>I successfully replicated a leading webpage named 'Zelta Trading Platform.</p>
+                <a href="http://tinyurl.com/zelta01" class="btn-5">See more</a>
+                </div>
+                <div id="pro_1">
+                    <img src="images/setting.png" alt="" width="70px">
+                    <b>DoLife</b>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate quis praesentium</p>
+                    <a href="" class="btn-6">See more</a>
+            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-row">
+                <div>
+                    <img src="images/user.png" alt="" width="50px">
+                </div>
+                <div>
+                    <h2>Contact me</h2>
+                </div>
+                <div>
+                    <p>Feel free to drop me a message anytime. I'm here to help.</p>
+                </div>
+            </div>      
+        </div>
+        <div>
+            <div class="container">
+                <div class="user-container">
+                    <div>
+                        <label for="nameInput">Name:</label>
+                        <input type="text" id="nameInput">
+                        <span class="error">Name contains min 6 character</span>
+                    </div>
+                    <div>
+                        <label for="emailInput">Email:</label>
+                        <input type="email" id="emailInput" required>
+                        <span class="error">Enter valid email</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="user-textarea">
+                <div class="user-textarea-input">
+                    <label for="messageInput">Message:</label>
+                <textarea name="" id="messageInput"></textarea>
+                </div>
+                <div id="enterMsg">Please enter the message</div>
+                <div id="popup" class="popup-1">
+                    <img class="shield" src="images/submit.png" alt="" width="45px">
+                    <b>Thank you</b>
+                    <p>Your response submitted <br> successfully</p>
+                    <button id="btn-submit" onclick="closePopup()">OK</button>
+                </div>
+                <div>
+                    <button id="mySubmit" onclick="userSubmit()">Submit</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer-row-1">
+                <div class="footer-row-1-order">
+                    <img src="images/call.png" alt="" width="40px">
+                    <b>Mobile No:</b>
+                    <p>Please feel free to contact me at your earliest convenience</p>
+                    <a href="tel:9123509524">9123509524</a>
+                </div>
+                <div class="footer-row-1-order">
+                    <img src="images/email.png" alt="" width="40px">
+                    <b>Email:</b>
+                    <p>Please feel free to email me at your earliest convenience</p>
+                    <a href="mailto:sjnjega49616@gmail.com">sjnjega49616@gmail.com</a>
+                </div>
+                <div class="footer-row-1-order">
+                    <img src="images/location.png" alt="" width="40px">
+                    <b>Location:</b>
+                    <p>Here is my current location should you need to reach me</p>
+                    <a href="#"> Coimbatore,Tamilnadu </a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer-row-3">
+                    <img src="images/linkedin.png" alt="" width="35px">
+                    <img src="images/github_new.png" alt="" width="35px">
+                    <img src="images/instagram.png" alt="" width="35px">
+                    <img src="images/twitter.png" alt="" width="35px">
+                    <img src="images/facebook.png" alt="" width="35px">
+            </div>
+        </div>
+    </footer>
+    <script src="script.js">
+    </script>
+    <script src="autotyping.js">
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
